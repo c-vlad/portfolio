@@ -1,0 +1,15 @@
+baseURL = 'https://c-vlad.github.io/portfolio/'
+languageCode = 'en-us'
+title = 'C Vlad'
+
+theme = "book"
+
+[params]
+  BookTheme = "light"
+  BookToC = true
+  BookSection = "*"
+  #BookLogo = "/images/logo.png"
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
